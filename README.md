@@ -1,3 +1,3 @@
 # malaya_bronnaya_teambook
 
-haha, hello artem
+haha, hello artem (not you)
