@@ -1,3 +1,7 @@
 # malaya_bronnaya_teambook
 
-haha, hello artem (not you)
+На данный момент спёртый тимбук криптов с некоторыми выкинутыми вещами
+
+\+ наш template
+
+\+ numeric
