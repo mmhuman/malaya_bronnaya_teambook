@@ -113,4 +113,13 @@ book_text += footer
 with codecs.open(bookname, "w", "utf-8") as f:
 	print(book_text, file=f)
 
-os.system("xelatex -shell-escape -8bit %s" % bookname)
+
+for _ in range(2):
+    # two times because of some latex bug
+    os.system("xelatex -shell-escape -8bit %s" % bookname)
+
+
+# cleanup
+os.system("rm _minted-book/ -r")
+for ext in ['aux', 'log', 'tex', 'toc']:
+    os.system("rm book.%s" % ext)
